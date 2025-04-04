@@ -17,11 +17,11 @@ router.post('/', (req, res) => {
 });
 
 // Update user
-router.put('/:id', (req, res) => {
+router.put('/:id', (req,res) => {
     res.send(`User ID: ${req.params.id} Updated`);
 });
 
-// Delete user
+// Delete user  
 router.delete('/:id', (req, res) => {
     res.send(`User ID: ${req.params.id} Deleted`);
 });

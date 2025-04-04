@@ -7,10 +7,10 @@ router.get('/', (req, res) => {
 });
 
 // Get user by ID
+
 router.get('/:id', (req, res) => {
     res.send(`User ID: ${req.params.id}`);
 });
-
 // Create a new user
 router.post('/', (req, res) => {
     res.send('User Created');
